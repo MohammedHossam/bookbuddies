@@ -1,1 +1,1 @@
-# bookbuddies
+# BookHub
