@@ -130,3 +130,14 @@ test:
       #   read:
       #     mode: :primary
       #   max_pool_size: 1
+production:
+  clients:
+    default:
+      uri: "mongodb+srv://bo-g:A1B2C3d@cluster0-golck.mongodb.net/BookhubDB?retryWrites=true&w=majority"
+      # database: bookhub_test
+      # hosts:
+      #   - localhost:27017
+      # options:
+      #   read:
+      #     mode: :primary
+      #   max_pool_size: 1
